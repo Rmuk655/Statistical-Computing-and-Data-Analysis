@@ -12,6 +12,10 @@ A set of self-contained Python notebooks exploring probability simulation, condi
 
 Each notebook directory contains its own README and notebook, along with the dataset where applicable.
 
+## Setup
+
+Ubuntu/WSL (needs sudo for apt): `bash setup.sh` installs Python venv support, creates `.venv` and installs `requirements.txt` (numpy, pandas, matplotlib, jupyter). Then `source .venv/bin/activate && jupyter notebook`. The CSV datasets are in the repo.
+
 ## Run
 
 From the repository root:
